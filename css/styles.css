@@ -1,11 +1,90 @@
-body {
-font-family:'Courier New', Courier, monospace
-}
+*{
+            padding: 0;
+            margin: 0;  
+            font-family:'Courier New', Courier, monospace
+        }
+        
+        #hero{
 
-#navbar {
-    display: inline;
-    padding: 20px;
-    border: 1px solid blue;
-    size: 50px;
-    
-}
+            background-image: url(/images/0c5c2627f823f5ee27062920c2dd921b322f4338-2712x2160.png);
+            height: 15vh;
+            background-position: center;
+            background-attachment: fixed;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+            font-size: 2vw;
+        }
+
+        main{ 
+           background-image: url(/images/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jpg); 
+           background-position: center;
+           background-attachment: fixed;
+           width: 100vw;
+        }
+
+        nav {
+            display: flex;
+            width: 100%;
+            height: 6vh;
+            /* border: 1px solid black; */
+            justify-content: space-around;
+            align-items: center;
+            color: aliceblue;
+            background-color: rgb(27, 27, 27) ;
+            position: sticky;
+            top: 0;
+        }
+
+        img {
+            width: 100vw;
+            background-position: center;
+        }
+        
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            font-size: larger;
+
+        }
+        a:link {
+        color: aliceblue;
+        }
+
+        /* visited link */
+        a:visited {
+        color: aliceblue;
+        }
+
+        /* mouse over link */
+        a:hover {
+        color: green;
+        }
+
+        /* selected link */
+        a:active {
+        color: green;
+        }
+
+        .box {
+            border-radius: 10px;
+            border: 2px solid aliceblue;
+            background-color: rgba(0, 0, 0, 0.801); 
+            color: aliceblue;
+            width: 300px;
+            margin: 5px;
+            padding: 5px; 
+            text-align: center;
+
+        }
+        .container{
+            color: rgb(255, 255, 255);
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+            display: flex;
+            justify-content:center;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }

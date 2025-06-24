@@ -5,58 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League of Legends Tournament</title>
     <link rel="stylesheet" href="css/styles.css">
+
+   
+
+
 </head>
 <body>
-    <!--header start-->
+    <!--HEADER -->
     <header>
-        <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="news.html">News</a>
-                <a href="contact.html">Contact</a>
-                <a href="about.html">About</a>
-        </nav>
+        <div id="hero">
+            <h1>2025 Summoner's Cup Denver </h1>
+        </div>
     </header>
 
-    <!--main start-->
+    <!--MAIN-->
     <main>
-        <h1>2025 Summoner's Cup Denver <em>sign in</em></h1>
-        <img src="images/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jpg" alt="League Graphic" width="600">
-
-        <form action="/action_page.php">
- <fieldset>
-  <legend>Personalia:</legend>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <label for="birthday">Birthday:</label>
-  <input type="date" id="birthday" name="birthday"><br><br>
-  <input type="submit" value="Submit">
- </fieldset>
-</form>
-
-
-
-    </main>
-
-    <!--section start-->
-    <section>
-        <h1>Thanks!!!</h1>
-        <img src="images/0c5c2627f823f5ee27062920c2dd921b322f4338-2712x2160.png" alt="lux Graphic" width="600">
-
-    </section>
-    
-    <!--footer start-->
-    <footer>
-        <nav class="navbar">
+        
+        <nav>
                 <a href="index.html">Home</a>
                 <a href="news.html">News</a>
                 <a href="contact.html">Contact</a>
-                <a href="about.html">About</a>
+                <a href="Sign In.html">Sign In</a>
+        </nav>
+        
+        <!-- <img src="images/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jpg" alt="League Graphic" object-fit: scale-down> -->
+        <br><br>
+        <div class="container">
+            <h1>Sign up for 2025 Summoner's Cup Denver</h1><br><br><br>
+        </div>
+
+        <div class="container">
+            <p><strong>Directions:</strong> Complete the form below. Be sure to agree to our licensed agreement and click 'Submit'.</p><br><br>
+        </div>
+
+        <div class="container">
+
+            <div class="box">        
+                <form action="/action_page.php">
+                <fieldset>
+                    <legend>Team Info:</legend>
+
+                    <label for="tname">Team Name</label><br>
+                    <input type="text" id="tname" name="tname" placeholder="SKT T1"><br><br>
+                    
+                    <label for="sname">Support</label><br>
+                    <input type="text" id="sname" name="sname" placeholder="Full Name"><br>
+                    <input type="text" id="sname2" name="sname2" placeholder="Summoner Name"><br><br>
+                    
+                    <label for="aname">ADC</label><br>
+                    <input type="text" id="aname" name="aname" placeholder="Full Name"><br>
+                    <input type="text" id="aname2" name="aname2" placeholder="Summoner Name"><br><br>
+                    
+                    <label for="tname">Top</label><br>
+                    <input type="text" id="tname" name="tname" placeholder="Full Name"><br>
+                    <input type="text" id="tname2" name="tname2" placeholder="Summoner Name"><br><br>
+                    
+                    <label for="mname">Mid</label><br>
+                    <input type="text" id="mname" name="mname" placeholder="Full Name"><br>
+                    <input type="text" id="mname2" name="mname2" placeholder="Summoner Name"><br><br>
+                    
+                    <label for="jname">Jungle</label><br>
+                    <input type="text" id="jname" name="jname" placeholder="Full Name"><br>
+                    <input type="text" id="jname2" name="jname2" placeholder="Summoner Name"><br><br>
+                    
+                </fieldset>
+                </form>
+            </div>
+
+            <div class="box">        
+                <form action="/action_page.php">
+                <fieldset>
+                    <legend>Account:</legend>
+                    <label for="username">Account Name</label><br>
+                    <input type="text" id="username" name="username"><br><br>
+                    <label for="pword">Password</label><br>
+                    <input type="password" id="pword" name="pword"><br><br>
+                    
+                </fieldset>
+                </form>
+            </div>
+
+            <div class="box">        
+                <form action="/action_page.php">
+                <fieldset>
+                    <legend>Contact & Submit:</legend>
+                    <label for="tele">Telephone</label><br>
+                    <input type="tel" id="tele" name="tele"><br><br>
+
+                    <label for="email1">Email</label><br>
+                    <input type="email" id="email1" name="email1"><br><br>
+
+                    <label for="fav">Preferred Method of Contact:</label><br>
+                    <input type="radio" id="email2" name="fav" value="email2">
+                    <label for="email2">Email</label><br>
+                    <input type="radio" id="text1" name="fav" value="text1">
+                    <label for="text1">Text</label><br>
+                    <input type="radio" id="call" name="fav" value="call">
+                    <label for="call">Phone Call</label><br><br>
+
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I agree</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Sign up for newsletter</label><br><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <img src="images/0c5c2627f823f5ee27062920c2dd921b322f4338-2712x2160.png" alt="lux Graphic" > 
+    </main>
+
+    <!--SECTION-->
+    <section>
+        
+    </section>
+    
+    <!--FOOTER-->
+        <nav class="navbar">
+                <p>Riot Games™</p>
+                <a href="facebook.html">Facebook</a>
+                <a href="instagram.html">Instagram</a>
+                <a href="twitter.html">Twitter</a>
         </nav>
 
-    </footer>
+    </footer> 
 </body>
 </html>
