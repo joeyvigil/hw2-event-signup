@@ -5,7 +5,7 @@
 }
 
 #hero{
-    background-image: url(/images/0c5c2627f823f5ee27062920c2dd921b322f4338-2712x2160.png);
+    background-image: url("/images/0c5c2627f823f5ee27062920c2dd921b322f4338-2712x2160.png");
     /* background-image: url('../images/0c5c2627f823f5ee27062920c2dd921b322f4338-2712x2160.png'); */
     height: 15vh;
     background-position: center;
@@ -20,7 +20,7 @@
 }
 
 main{ 
-    background-image: url(/images/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jpg); 
+    background-image: url("/images/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jpg"); 
     background-position: center;
     background-attachment: fixed;
     width: 100vw;
