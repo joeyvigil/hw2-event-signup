@@ -1,4 +1,5 @@
 # hw2-event-signup
 
 Preview here:
-https://joeyvigil.github.io/hw2-event-signup/
+[joeyvigil.github.io/hw2-event-signup]([https://link-url-here.org](https://joeyvigil.github.io/hw2-event-signup/))
+
