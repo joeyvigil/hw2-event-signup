@@ -27,9 +27,46 @@
                 <a href="contact.html">Contact</a>
                 <a href="Sign In.html">Sign In</a>
         </nav>
+
+        <div class="container">
+            <div class="box2">
+                <br>
+                <div class="container">
+                    <h1>Event Information</h1><br><br><br>
+                </div>
+
+                <div class="container">
+                    <p><strong>Description:</strong> Gear up for an epic clash on the Rift! Summoner’s Rift Showdown 2025 brings together amateur and semi-pro League of Legends teams for a full day of high-stakes, high-energy matches. Whether you're a seasoned jungler, a fearless ADC, or a die-hard spectator, this event is your chance to join the action and witness intense plays, clutch pentas, and game-changing Baron steals. Open to teams and solo players — register as a full squad or be matched in the free agent pool. Cosplay welcome!</p><br>
+                </div>
+
+                <div class="container">
+                    <p><strong>Date:</strong> August 17, 2025<br>12:00 PM – 9:00 PM CST</p><br><br>
+                </div><br>
+
+                <div class="container">
+                    <p><strong>Location:</strong> The Esports Arena – Denver, CO <br>(Inside The Exchange Building, Downtown Denver)</p><br><br>
+                </div><br>
+
+                <div class="container">
+                    <p><strong>Entry Fee:</strong> Team Pass (5 players): $75</p>
+                </div><br>
+
+                <div class="container">
+                    <p><strong>Features:</strong>
+                        <ul>
+                            <li>$2,000 Prize pool</li>
+                            <li>Double Elimination Bracket</li>
+                            <li>Grand Finals Best of 3</li>
+                            <li>Live Streamed with Pro Casters</li>
+                        </ul>
+                    </p>
+                </div><br>
+            </div>
+        </div>
         
-        <!-- <img src="images/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jpg" alt="League Graphic" object-fit: scale-down> -->
-        <br><br>
+        <div class="container">
+        <div class="box2">
+        <br>
         <div class="container">
             <h1>Sign up for 2025 Summoner's Cup Denver</h1><br><br><br>
         </div>
@@ -37,13 +74,15 @@
         <div class="container">
             <p><strong>Directions:</strong> Complete the form below. Be sure to agree to our licensed agreement and click 'Submit'.</p><br><br>
         </div>
+                    </div>
+        </div>
 
         <div class="container">
 
             <div class="box">        
                 <form action="/action_page.php">
                 <fieldset>
-                    <legend>Team Info:</legend>
+                    <legend>Team Info: (if applicable)</legend>
 
                     <label for="tname">Team Name</label><br>
                     <input type="text" id="tname" name="tname" placeholder="SKT T1"><br><br>
@@ -75,11 +114,24 @@
             <div class="box">        
                 <form action="/action_page.php">
                 <fieldset>
-                    <legend>Account:</legend>
-                    <label for="username">Account Name</label><br>
-                    <input type="text" id="username" name="username"><br><br>
-                    <label for="pword">Password</label><br>
-                    <input type="password" id="pword" name="pword"><br><br>
+                    <legend>Information:</legend>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="password" id="lname" name="lname"><br><br>
+                    <label for="birth">Date of Birth</label><br>
+                    <input type="date" id="birth" name="birth"><br><br>
+                    <label for="hear">How did you hear about this event?</label>
+                    <select name="hear" id="hear">
+                        <option value="Facebook">Facebook</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Advertisment">Advertisment</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br><br>
+
+                    <p><label for="w3review">Special Request or Comments:</label></p><textarea id="w3review" name="w3review" rows="6" ></textarea>
+
                     
                 </fieldset>
                 </form>
@@ -88,25 +140,28 @@
             <div class="box">        
                 <form action="/action_page.php">
                 <fieldset>
-                    <legend>Contact & Submit:</legend>
+                    <legend>Information:</legend>
                     <label for="tele">Telephone</label><br>
                     <input type="tel" id="tele" name="tele"><br><br>
 
                     <label for="email1">Email</label><br>
                     <input type="email" id="email1" name="email1"><br><br>
 
-                    <label for="fav">Preferred Method of Contact:</label><br>
-                    <input type="radio" id="email2" name="fav" value="email2">
-                    <label for="email2">Email</label><br>
-                    <input type="radio" id="text1" name="fav" value="text1">
-                    <label for="text1">Text</label><br>
-                    <input type="radio" id="call" name="fav" value="call">
-                    <label for="call">Phone Call</label><br><br>
+                    <label for="fav">Ticket Type:</label><br>
 
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                    <label for="vehicle1"> I agree</label><br>
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                    <label for="vehicle1"> Sign up for newsletter</label><br><br>
+                    <input type="radio" id="att" name="fav" value="att">
+                    <label for="att">Attendee</label><br>
+
+                    <input type="radio" id="free" name="fav" value="free">
+                    <label for="free">Free Agent (Player)</label><br>
+
+                    <input type="radio" id="team" name="fav" value="team">
+                    <label for="team">Team (player)</label><br><br>
+
+                    <input type="checkbox" id="yes" name="agree" value="agree">
+                    <label for="yes"> I agree</label><br>
+                    <input type="checkbox" id="letter" name="letter" value="letter">
+                    <label for="letter"> Sign up for newsletter</label><br><br>
 
                     <input type="submit" value="Submit">
                     <input type="reset" value="Reset">
@@ -119,13 +174,13 @@
     </main>
 
     <!--SECTION-->
-    <section>
-        
+    <section class="container">
+        THANK YOU!!!
     </section>
     
     <!--FOOTER-->
         <nav class="navbar">
-                <p>Riot Games™</p>
+                <p>Riot Games HQ<br>123 E North St<br>Denver CO 81001</p>
                 <a href="facebook.html">Facebook</a>
                 <a href="instagram.html">Instagram</a>
                 <a href="twitter.html">Twitter</a>
